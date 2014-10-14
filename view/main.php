@@ -39,6 +39,7 @@
 <script type="text/javascript">
 $(document).ready(function(){
   $(".pmain1").hide();$(".pmain2").hide();$(".pmain3").hide();$(".pmain4").hide();$(".pmain5").hide();$(".pmain6").hide();$(".pmain7").hide();
+  
   $("#b1").click(function(){
    $(".pmain1").hide();$(".pmain2").hide();$(".pmain3").hide();$(".pmain4").hide();$(".pmain5").hide();$(".pmain6").hide();$(".pmain7").hide();
   $(".pmain1").show();
@@ -86,6 +87,15 @@ $(document).ready(function(){
 </script>
 
 <div id="oamainright">
+
+<div class="pmain1">
+<?php require_once'../control/control_money.php';?>
+</div>
+<div class="pmain2">
+<?php require_once'../control/control_thing.php';?>
+
+
+</div>
 
 
 </div>
